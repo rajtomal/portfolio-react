@@ -1,0 +1,127 @@
+.advantace-part{
+    background: #222831;
+    color: #fff;
+    padding: 50px 0;
+}
+.advantace-exprence {
+	background: rgb(70,197,232);
+	background: linear-gradient(180deg, rgba(70,197,232,.5) 0%, rgba(139,224,248,0.0) 100%);
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	text-align: center;
+	position: relative;
+	padding: 80px 100px 160px 100px;
+	width: 100%;
+}
+.exprence-row-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advantace-exprence h1 {
+	font-size: 100px;
+	font-weight: 700;
+}
+.advantace-exprence p {
+	font-size: 16px;
+	font-weight: 400;
+}
+.advantace-clients {
+	background: rgb(255,230,0);
+	background: linear-gradient(90deg, rgba(255,230,0,1) 0%, rgba(255,230,0,0) 100%);
+	position: absolute;
+	bottom: 0;
+	right: -70px;
+	padding: 4px;
+	border-radius: 10px;
+	bottom: 35px;
+}
+.advantace-clients .advantace-child {
+    background: rgb(70,197,224);
+    background: linear-gradient(90deg, rgba(70,197,224,1) 0%, rgba(80,123,133,1) 100%);
+	padding: 10px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advantace-clients h2 {
+	display: inline-block;
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0;
+	width: 75px;
+}
+.advantace-clients p {
+	display: inline-block;
+	padding-left: 20px;
+	margin: 0;
+}
+
+.advantace-text h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+.advantace-text p {
+	font-size: 16px;
+	font-weight: 300;
+	padding: 10px 0;
+	line-height: 25px;
+	margin: 0;
+}
+
+.advantage-exp{
+    text-align: center;
+}
+.advantage-exp .technology{
+    background: red;
+    border-radius: 10px;
+    padding: 3px;
+    background:  linear-gradient(0deg, rgba(255, 230, 0, 0.6) 0%, rgba(31, 30, 28, 0.0) 67.59%);
+}
+.advantage-exp .all-technology {
+	background: #282f3a;
+	padding: 30px;
+    border-radius: 10px;
+}
+.advantage-exp .all-technology h1{
+    font-size: 32px;
+}
+.advantage-exp .all-technology h5{
+    font-size:16px ;
+}
+.figma h5 {
+	color: #FFE600;
+}
+.photoshop{
+    background: linear-gradient(0deg, rgba(72, 177, 103, 0.6) 0%, rgba(31, 30, 28, 0.0) 67.59%) !important;
+}
+.photoshop h5{
+    color: #59C378;
+}
+.html-css{
+    background: linear-gradient(0deg, rgba(221, 88, 79, 0.6) 0%, rgba(31, 30, 28, 0.0) 67.59%) !important;
+}
+.html-css h5{
+    color: #DD584F;
+}
+.javascript{
+    background: linear-gradient(0deg, rgba(255, 154, 0, 0.6) 0%, rgba(31, 30, 28, 0.0) 67.59%) !important;
+}
+.javascript h5{
+    color: #FF9A00;
+}
+.react{
+    background: linear-gradient(0deg, rgba(0, 169, 255, 0.6) 0%, rgba(31, 30, 28, 0.0) 67.59%) !important;
+}
+.react h5{
+    color: #00A9FF;
+}
+.angular{
+    background: linear-gradient(0deg, rgba(158, 0, 255, 0.6) 0%, rgba(31, 30, 28, 0.0) 67.59%) !important;
+}
+.angular h5{
+    color: #AD00FF;
+}

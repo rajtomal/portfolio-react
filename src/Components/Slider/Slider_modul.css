@@ -1,0 +1,197 @@
+.slider-all-text{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.slider-part{
+    background: #222831;
+    padding: 75px 0;
+}
+.slider-text p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+}
+.slider-text h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+.slider-text h2 span{
+    color:#FF014F ;
+}
+.slider-text h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+.slider-text h3 span{
+    color: #46C5E8;
+}
+.slider-p{
+    font-weight: 300 !important;
+    padding: 10px 0;
+}
+.slider-btn{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+
+
+/* slider-img */
+
+.slider-img{
+    text-align: center;
+    position: relative;
+}
+.slider-img img{
+    max-width: 400px;
+}
+
+/* animation img */
+
+.html-animation {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+    animation-name: html;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes html{
+    0% {top: 40px;}
+    50% {top: 60px}
+    100% {top: 40px;}
+}
+.figma-animation {
+	position: absolute;
+	top: -10%;
+	right: 25%;
+	animation-name: figma;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes figma{
+    0% {top: -20px;}
+    50% {top: 10px}
+    100% {top: -20px;}
+}
+.react-animation {
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	animation-name: react;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes react{
+    0% {left: 80px;}
+    50% {left: 60px}
+    100% {left: 80px;}
+}
+.js-animation {
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	animation-name: js;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes js{
+    0% {left: 80px;}
+    50% {left: 95px}
+    100% {left: 80px;}
+}
+.css-animation {
+	position: absolute;
+	top: 30%;
+	right: 20%;
+	animation-name: css;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes css{
+    0% {right: 85px;}
+    50% {right: 110px;}
+    100% {right: 85px;}
+}
+.psd-animation{
+    position: absolute;
+	top: 80%;
+	right: 10%;
+	animation-name: psd;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes psd{
+    0% {right: 75px;}
+    50% {right: 110px;}
+    100% {right: 75px;}
+}
+/* =============================
+            Responsive
+================================= */
+@media (max-width: 530px){
+    .slider-img {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .slider-img img{
+        width: 100%;
+    }
+    .figma-animation {
+        right: 40px;
+    }
+    .html-animation {
+        left: 5px;
+    }
+    @keyframes html{
+        0% {top: 40px;}
+        50% {top: 60px}
+        100% {top: 40px;}
+    }
+    .css-animation{
+        right: 25%;
+    }
+    @keyframes css{
+        0% {right: 20px;}
+        50% {right: 30px;}
+        100% {right: 20px;}
+    }
+    .psd-animation{
+        right: 0%;
+    }
+    @keyframes psd{
+        0% {right: 0px;}
+        50% {right: 10px;}
+        100% {right: 0px;}
+    }
+    .react-animation{
+        left: -10%;
+    }
+    @keyframes react{
+        0% {left: -10px;}
+        50% {left: 0px}
+        100% {left: -10px;}
+    }
+    /* .js-animation{
+        left: 0% !important;
+    } */
+    @keyframes js{
+        0% {left: -10px;}
+        50% {left: 0px}
+        100% {left: -10px;}
+    }
+}
+
+
+
+

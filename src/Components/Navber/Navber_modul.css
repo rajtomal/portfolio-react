@@ -1,0 +1,107 @@
+
+.navber-part{
+    background: #222831;
+    color: #fff;
+}
+.logo{
+    color: #fff;
+    font-size: 32px;
+    font-weight:800 ;
+    
+}
+.logo img{
+    max-width: 200px;
+}
+.logo:hover{
+ color: #fff;
+}
+.menu-ber{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 20px;
+    transition:all linear 0.4s;
+    text-align: center;
+}
+.menu-ber:hover{
+    color:#46C5E8 ;
+}
+.nav-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #008000;
+    padding: 8px 40px;
+    border: 1px solid #ffffff;
+    transition: all linear 0.4s;
+    position: relative;
+    text-align: center;
+
+}
+.nav-btn::after {
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 8px;
+	background: #222831;
+	bottom: -4px;
+	left: 20px;
+	border: 1px solid red;
+    transition: all linear 0.4s;
+}
+.nav-btn:hover::after{
+    border-color: #46C5E8;
+    left: 120px;
+}
+.nav-btn::before {
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 8px;
+	background: #222831;
+	top: -4px;
+	right: 20px;
+	border: 1px solid red;
+    transition: all linear 0.4s;
+}
+.nav-btn:hover::before{
+    border-color: #46C5E8;
+    right: 120px;
+
+}
+.nav-btn:hover{
+    color: #46C5E8;
+    border-color: #46C5E8;
+}
+
+
+
+
+
+/* mobile view */
+
+button:focus:not(:focus-visible) {
+	outline: 0;
+	color: #fff;
+	/* background: #fff; */
+}
+
+
+
+
+
+
+/*=========================== 
+        Responsive
+===============================*/
+@media (max-width: 530px){
+    .slider-text h2 {
+        font-size: 32px !important;
+        padding: 10px 0 !important;
+    }
+    .slider-text h3 {
+        font-size: 22px !important;
+    }
+    .slider-text p {
+        font-size: 13px !important;
+    }
+}

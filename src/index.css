@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #222831;
+  font-family: 'Montserrat', sans-serif !important;
+}
+a{
+  text-decoration: none !important;
+}
+ul, li{
+  list-style-type: none;
+}
